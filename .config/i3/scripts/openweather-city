@@ -7,10 +7,10 @@ Aborting."; exit 1; }
 
 # To use this script you need to create an API key here https://home.openweathermap.org
 # You need to put your Open Weather APIKEY here:
-APIKEY="8b9ff3b5c7146506730abc54f6be8ba0"
+APIKEY="ApiApiApi"
 # find your City ID here: https://openweathermap.org/
 # search for your city and copy the ID from the URL inside the browser.
-CITY_ID="2832495"
+CITY_ID="IDIDID"
 URL="http://api.openweathermap.org/data/2.5/weather?id=${CITY_ID}&units=metric&APPID=${APIKEY}"
 
 WEATHER_RESPONSE=$(wget -qO- "${URL}")
